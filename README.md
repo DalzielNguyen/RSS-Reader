@@ -8,5 +8,11 @@ Mobile phone: 0987.276.549.
 
 Facebook: facebook.com/nlsang1999.
 
+Feature will be update:
+
+- Login
+- Register
+- Fix Error with IOS 14.0
+- UI/UX
 
       Copyright by Dalziel Ng (17CNTN - HCMUS)
