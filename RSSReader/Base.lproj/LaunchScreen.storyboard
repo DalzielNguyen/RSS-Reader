@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BlR-bL-6lP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Rectangle Copy 3" translatesAutoresizingMaskIntoConstraints="NO" id="c7A-gN-2VN">
+                                <rect key="frame" x="0.0" y="696" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="EUv-Jg-BhN"/>
+                                    <constraint firstAttribute="height" constant="200" id="YiM-0p-Njo"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Rectangle" translatesAutoresizingMaskIntoConstraints="NO" id="VNQ-Ez-cs4">
+                                <rect key="frame" x="214" y="0.0" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="DiQ-Yf-dQm"/>
+                                    <constraint firstAttribute="height" constant="200" id="HAV-D8-Aud"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="rss-240-721969" translatesAutoresizingMaskIntoConstraints="NO" id="Pcd-Us-ceo">
+                                <rect key="frame" x="172" y="413" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="PeP-4O-CsN"/>
+                                    <constraint firstAttribute="width" constant="70" id="Zmk-le-zsc"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="78d-KD-u8L"/>
+                        <color key="backgroundColor" red="0.085492916409999994" green="0.45808577540000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="c7A-gN-2VN" secondAttribute="bottom" id="Cep-NT-Hmv"/>
+                            <constraint firstItem="Pcd-Us-ceo" firstAttribute="centerX" secondItem="BlR-bL-6lP" secondAttribute="centerX" id="GFO-U4-Jvj"/>
+                            <constraint firstItem="Pcd-Us-ceo" firstAttribute="centerY" secondItem="BlR-bL-6lP" secondAttribute="centerY" id="M6D-W3-3bD"/>
+                            <constraint firstItem="VNQ-Ez-cs4" firstAttribute="top" secondItem="BlR-bL-6lP" secondAttribute="top" id="W5l-HE-31r"/>
+                            <constraint firstAttribute="trailing" secondItem="VNQ-Ez-cs4" secondAttribute="trailing" id="aUy-JL-nPs"/>
+                            <constraint firstItem="c7A-gN-2VN" firstAttribute="leading" secondItem="78d-KD-u8L" secondAttribute="leading" id="nEW-Ax-ROt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Rectangle" width="344" height="344"/>
+        <image name="Rectangle Copy 3" width="344" height="344"/>
+        <image name="rss-240-721969" width="128" height="128"/>
+    </resources>
+</document>
